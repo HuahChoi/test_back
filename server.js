@@ -140,6 +140,6 @@ app.post('/wishup',(req,res)=>{
     }
 });
 
-app.listen(80, function(){
-    console.log('on 80');
+app.listen(8080, function(){
+    console.log('on 8080');
 });
